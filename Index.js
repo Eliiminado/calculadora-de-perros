@@ -14,7 +14,7 @@ function Calcular() {
 
     }
     else {
-        document.querySelector("#EdadFinal").innerHTML = `<div>Introduce datos validos!</div>`
+        document.querySelector("#EdadFinal").innerHTML = `<div class="alert alert-danger" role="alert">Introduce datos validos!</div>`
     }
 
 
